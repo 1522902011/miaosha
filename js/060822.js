@@ -20,6 +20,22 @@ $(function(){
         $('.error2').removeClass('on3');
         $('.error1').removeClass('on3');
     });
+    $('#in1').click(function(){
+        $('#ix1').addClass('on2');
+        $('#ix2').removeClass('on2');
+        $('#i1').addClass('on1');
+        $('#i2').removeClass('on1');
+        $('.error2').removeClass('on3');
+        $('.error1').removeClass('on3');
+    });
+    $('#in2').click(function(){
+        $('#ix2').addClass('on2');
+        $('#ix1').removeClass('on2');
+        $('#i2').addClass('on1');
+        $('#i1').removeClass('on1');
+        $('.error2').removeClass('on3');
+        $('.error1').removeClass('on3');
+    });
 //清除input
     var in1=$('#in1').val();
     var in2=$('#in2').val();
@@ -43,10 +59,18 @@ $('#in1').focus();
              window.location.href='060830.html'
          }else{
              $('.error2').addClass('on3'); /*两次手机号码不一致*/
+             $('#i2').addClass('on1');
+             $('#i1').removeClass('on1');
+             $('#ix2').addClass('on2');
+             $('#ix1').removeClass('on2');
              $('#in2').focus();
          }
         }else{
             $('.error1').addClass('on3');/*手机号码输入错误*/
+            $('#i1').addClass('on1');
+            $('#i2').removeClass('on1');
+            $('#ix1').addClass('on2');
+            $('#ix2').removeClass('on2');
             $('#in1').focus();
 
         }

@@ -13,6 +13,7 @@ position: relative;
 .in0{
     font-size: 0.28rem;
     margin-left: 0.2rem;
+    flex: 1;
 }
 .in0::-webkit-input-placeholder{
     color: #cccccc;
