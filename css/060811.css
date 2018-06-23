@@ -115,7 +115,7 @@ opacity: 0;
 }
 .bj1{
     position: relative;
-    width: 1.38rem;
+    width: 1.5rem;
 margin-right: 0.1rem;
 }
 .bj1>div{
@@ -134,9 +134,9 @@ margin-left: 0.08rem;
 }
 .bj1 span{
     font-size: 0.6rem;
-    letter-spacing:0.3rem;
+    letter-spacing:0.36rem;
     color: white;
-    width: 1.4rem;
+    width: 1.5rem;
 }
 .bj1,.bj2.bj3{
     position: relative;
@@ -145,8 +145,8 @@ margin-left: 0.08rem;
     position: absolute;
     left: 50%;
     top: 0.05rem;
-    transform: translateX(-30%);
-    -webkit-transform: translateX(-30%);
+    transform: translateX(-33%);
+    -webkit-transform: translateX(-33%);
 }
 /*飞享套餐开始*/
 .yz6{
