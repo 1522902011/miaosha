@@ -145,8 +145,8 @@ margin-left: 0.08rem;
     position: absolute;
     left: 50%;
     top: 0.05rem;
-    transform: translateX(-33%);
-    -webkit-transform: translateX(-33%);
+    transform: translateX(-30%);
+    -webkit-transform: translateX(-30%);
 }
 /*飞享套餐开始*/
 .yz6{
