@@ -1,0 +1,30 @@
+
+header{
+    background-image: url("../image/3.png");
+    width: 100vw;
+    height: 6.49rem;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.s0{
+    width: 100vw;
+    height: 50vh;
+    background: #ff8a00;
+
+}
+.img4{
+    background-image: url("../image/4.png");
+    width: 6.00rem;
+    height: 1.39rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 1.60rem;
+}
+.s0 span{
+    font-size: 0.34rem;
+    color: white;
+}
+
