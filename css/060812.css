@@ -1,3 +1,7 @@
+*{
+    font-family: "苹方";
+    font-family: "思源黑体";
+}
 /*跳转开始*/
 body{
     position: relative;
@@ -114,7 +118,7 @@ header{
 }
 .bj1{
     position: relative;
-    width: 1.38rem;
+    width: 1.5rem;
     margin-right: 0.1rem;
 }
 .bj1>div{
@@ -133,9 +137,9 @@ margin-left: 0.08rem;
 }
 .bj1 span{
     font-size: 0.6rem;
-    letter-spacing: 0.33rem;
+    letter-spacing: 0.36rem;
     color: white;
-    width: 1.38rem;
+    width: 1.5rem;
 }
 .bj1,.bj2.bj3{
     position: relative;
