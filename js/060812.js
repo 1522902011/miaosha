@@ -107,7 +107,7 @@ var num0=0;
         loading=setInterval(function(){
             if(num0>=10){
                 clearInterval(loading);
-                window.location.href='http://www.10086.cn'
+                window.location.href='060813.html'
             }
             li0.eq(num0++).addClass('on3').siblings().removeClass('on3');
         },500);
@@ -120,7 +120,7 @@ var num0=0;
         clearInterval(loading);
     });
 
-    $('#miao2').click(function(){
+    $('#miao2,#miao3,#miao4').click(function(){
         window.location.href='060821.html' ;
     });
 

@@ -102,7 +102,7 @@ var num0=0;
     var loading;
     var li0=$('#ul0>li');
 
-    $('#miao1').click(function(){
+    $('#miao1,#miao2,#miao3,#miao4').click(function(){
         $('.tz').addClass('on2');
         loading=setInterval(function(){
             if(num0>=10){
