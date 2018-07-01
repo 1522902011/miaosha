@@ -1,3 +1,11 @@
 .s0{
-width: 100vw;
+    width: 100vm;
+    height: 100vh;
+}
+.s1{
+background-image: url("../image/0.jpg");
+    width: 100vm;
+background-position: top center;
+    background-size: cover;
+    height: 19.46rem;
 }
